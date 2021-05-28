@@ -1,0 +1,16 @@
+@import "body";
+$color: blue;
+
+@keyframes ss {
+  from {
+    color: yellow;
+  }
+  to {
+    color: greenyellow;
+  }
+}
+
+body {
+  background-color: $color;
+  position: sticky;
+}

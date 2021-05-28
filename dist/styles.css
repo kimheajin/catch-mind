@@ -1,0 +1,19 @@
+@-webkit-keyframes ss {
+  from {
+    color: yellow; }
+  to {
+    color: green; } }
+
+@keyframes ss {
+  from {
+    color: yellow; }
+  to {
+    color: green; } }
+
+body {
+  background-color: blue;
+  position: sticky; }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .image {
+    background-image: url(image@2x.png); } }
